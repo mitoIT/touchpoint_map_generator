@@ -165,8 +165,8 @@ class EnhancedDashboardGenerator:
             
             # TODO: PII PROTECTION - Update these filename partial matches to match your actual source files
             # Example original values were date-specific like "20250709_IDN_Contact_List_DHC"
-            DHC_FILE_INDICATOR = "<REPLACE_WITH_DHC_FILENAME_PART>"   # e.g. "20250709_IDN_Contact_List_DHC"
-            IDN_FILE_INDICATOR  = "<REPLACE_WITH_IDN_FILENAME_PART>"    # e.g. "20250709_IDN_Contact_List"
+            DHC_FILE_INDICATOR = "<REPLACE_WITH_DHC_FILENAME_PART>"   # e.g. "20250709_Contact_List_DHC"
+            IDN_FILE_INDICATOR  = "<REPLACE_WITH_IDN_FILENAME_PART>"    # e.g. "20250709_Contact_List"
             
             basename = os.path.basename(csv_path)
             if DHC_FILE_INDICATOR in basename:
